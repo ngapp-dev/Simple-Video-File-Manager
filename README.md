@@ -1,6 +1,6 @@
 # Simple Video File Manager
 
-This application allows to view and manage video clips on the device using a <a href="https://developer.android.com/reference/android/content/ContentResolver" target="_blank"><i>ContentResolver</i></a> and a <a href="https://developer.android.com/reference/android/database/Cursor" target="_blank"><i>Cursor</i></a> to move through the <a https://developer.android.com/reference/android/provider/MediaStore" target="_blank"><i>MediaStore</i></a>.
+This application allows to view and manage video clips on the device using <a href="https://developer.android.com/reference/android/content/ContentResolver" target="_blank"><i>ContentResolver</i></a> and <a href="https://developer.android.com/reference/android/database/Cursor" target="_blank"><i>Cursor</i></a> to move through the <a href="https://developer.android.com/reference/android/provider/MediaStore" target="_blank"><i>MediaStore</i></a>.
 
 
 <div style="display:flex;">
