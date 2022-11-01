@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Simple Video File Manager</string>
+
+    <string name="dialog_bottom_sheet_download">Download file</string>
+    <string name="name_file">Enter File Name</string>
+    <string name="link_file">Enter File link</string>
+    <string name="save_button">Save File</string>
+
+    <string name="move_to_trash">Move to Trash</string>
+    <string name="undo_string">Undo</string>
+    <string name="restored">Restored</string>
+
+    <string name="permission_storage_rationale">Permissions are required to access storage data and determine the users video list</string>
+    <string name="permission_storage_denied">Storage permissions have been denied. Please consider providing it for video list access!</string>
+    <string name="permission_storage_never_ask_again">Storage permissions have been denied and will not be requested again.</string>
+    <string name="favourite">Add to favorite</string>
+    <string name="favourite_remove">Remove from favorite</string>
+    <string name="nav_files">Files</string>
+    <string name="download_success">Downloaded successfully</string>
+    <string name="download_cancel">Download canceled</string>
+    <string name="download_error_format">The downloadable file has invalid format</string>
+    <string name="save_error">File save error</string>
+    <string name="save_not">File not saved</string>
+    <string name="file_downloading">File downloading</string>
+    <string name="delete_error">File delete error</string>
+    <string name="move_to_trash_error">Move to trash error</string>
+    <string name="remove_from_trash_error">Remove from trash error</string>
+    <string name="load_list_error">Load list error</string>
+    <string name="feature_unavailable">This feature is not available</string>
+    <string name="remove_from_fav_error">Remove from favourites error</string>
+    <string name="file_download_progress">Download in progress</string>
+</resources>

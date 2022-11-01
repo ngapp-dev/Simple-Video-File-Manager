@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_files">
+
+    <dialog
+        android:id="@+id/nav_download"
+        android:name="com.ngapp.simplevideofilemanager.ui.FilesDownloadFragment"
+        android:label="@string/dialog_bottom_sheet_download"
+        tools:layout="@layout/dialog_file_download" >
+        <action
+            android:id="@+id/action_downloadFileFragment_to_downloadFileListFragment"
+            app:destination="@id/nav_files"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true" />
+    </dialog>
+    <fragment
+        android:id="@+id/nav_files"
+        android:name="com.ngapp.simplevideofilemanager.ui.FilesListFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_list_file">
+        <action
+            android:id="@+id/action_downloadFileListFragment_to_downloadFileFragment"
+            app:destination="@id/nav_download"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/nav_files" />
+    </fragment>
+</navigation>
